@@ -1,9 +1,10 @@
 name: IandIplugin
 version: 1.0.0
 main: iandi.plugin.Main
-#author: #書きたかったらコメント外して書いて
+#author: 書きたかったらコメント外して書いて
 #以下インデント(行変えた後の文字空き)は-半角-のスペース三つで
-commands: #コマンド詳細書く
+#以下コマンド詳細
+commands:
    tutorial:
       description: Command no setsumeibun.
       usage: /<command>
@@ -16,7 +17,8 @@ commands: #コマンド詳細書く
       permission: iandi.commands.ii
       permission-message: You don't have <permission>	
       default: true
-permissions: #権限はここで作ったりする false全否 true全許 opおｐ
+#権限は以下で作ったりする false全否 true全許 opおｐ
+permissions:
    iandi.commands.ii:
       default: op
    iandi.tutorial.command.tutorial:
